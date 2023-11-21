@@ -21,7 +21,7 @@ public class D11lectureApplication {
 
 		SpringApplication app = new SpringApplication(D11lectureApplication.class);
 		
-		String port = "3000";
+		String port = "8080";
 		ApplicationArguments argOptions = new DefaultApplicationArguments(args);
 
 		if (argOptions.containsOption("port")) {
